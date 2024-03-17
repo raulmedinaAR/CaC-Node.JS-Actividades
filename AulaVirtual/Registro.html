@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.ico">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Contacto</title>
+
+    <style>
+        .label {
+            text-align: right;
+        }
+
+        .input {
+            text-emphasis: left;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <Nav>
+                <a href="./index.html">Inicio</a>
+                <a href="./AcercaDe.html">Acerca de...</a>
+                <a href="./Contacto.html">Contacto</a>
+                <a href="./Registro.html" class="nav-current-page">Registro</a>
+                <a href="./Sucursales.html">Sucursales</a>
+            </Nav>
+        </div>
+        <div style="text-align: center;"><h1>Recetas de Ra&uacute;l</h1></div>
+    </header>
+
+    <h2><b>Formulario de registro</b></h2>
+
+    <form action="./show_data.html" method="get">
+    <table style="margin: 0 auto;">
+        <tr>
+            <td class="label"><label for="nombre">Nombre:</label></td>
+            <td class="input"><input type="text" name="nombre" placeholder="Ingrese su nombre"></td>
+        </tr>
+        <tr>
+            <td class="label"><label for="apellido">Apellido:</label></td>
+            <td><input type="text" name="apellido" placeholder="Ingrese su apellido"></td>
+        </tr>
+        <tr>
+            <td class="label"><label for="direccion">Direcci&oacute;n:</label></td>
+            <td class="input"><input type="text" name="direccion" placeholder="Ingrese su dirección"></td>
+        </tr>
+        <tr>
+            <td class="label"><label for="ciudad">ciudad:</label></td>
+            <td class="input"><input type="text" name="ciudad" placeholder="C.A.B.A"></td>
+        </tr>
+        <tr>
+            <td class="label"><label for="codigo_postal">C&oacute;digo postal:</label></td>
+            <td class="input"><input type="number" name="codigo_postal" placeholder="Ingrese su código postal"></td>
+        </tr>
+        <tr>
+            <td class="label"><label for="fecha_nacimiento">Fecha de nacimiento:</label></td>
+            <td class="input"><input type="date" name="fecha_nacimiento" placeholder="Ingrese su fecha de nacimiento"></td>
+        </tr>
+        <tr>
+            <td class="label"><label for="genero">G&eacute;nero:</label></td>
+            <td class="input">
+                <input type="radio" name="genero" value="Hombre">Hombre 
+                <input type="radio" name="genero" value="Mujer">Mujer 
+                <input type="radio" name="genero" value="Otro">Otro
+            </td>
+        </tr>
+        <tr>
+            <td class="label"><label for="estudios">Estudios:</label></td>
+            <td class="input">
+                <input type="checkbox" name="estudios" value="Primarios">Primarios 
+                <input type="checkbox" name="estudios" value="Secundarios">Secundarios 
+                <input type="checkbox" name="estudios" value="Terciarios">Terciarios
+                <input type="checkbox" name="estudios" value="Universitarios">Universitarios 
+                <input type="checkbox" name="estudios" value="Otro">Otro
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right;"><input type="submit"></td>
+        </tr>
+    </table>
+    </form>
+
+    <iframe src="./Footer.html" width="100%" frameborder="0"></iframe>
+</body>
+</html>
