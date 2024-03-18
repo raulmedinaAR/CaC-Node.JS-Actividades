@@ -15,8 +15,7 @@ a:visited {
 
 .nav-current-page {
     background-color: #FDF0E6;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
 }
 
 .header {
